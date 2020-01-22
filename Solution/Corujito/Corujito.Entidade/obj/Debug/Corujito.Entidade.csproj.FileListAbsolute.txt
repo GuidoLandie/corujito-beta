@@ -1,0 +1,5 @@
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\bin\Debug\Corujito.Entidade.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\bin\Debug\Corujito.Entidade.pdb
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.pdb

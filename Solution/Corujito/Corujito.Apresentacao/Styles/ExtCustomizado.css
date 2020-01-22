@@ -1,0 +1,38 @@
+.panel-fundo
+{
+	background-color:#DFE8F6 !important;
+	border-right: 1px solid #8DB2E3 !important;
+	border-left: 1px solid #8DB2E3 !important;
+	border-bottom: 1px solid #8DB2E3 !important;
+}
+.x-tab-strip-spacer
+{
+	height:0px !important;
+	border:0 !important;
+}
+.icone-legenda1
+{
+    background-image: url('/img/icones/16/legenda1.gif');
+    background-repeat: no-repeat;
+}
+
+.x-tab-panel-header, .x-tab-panel-footer 
+{
+    border: 0 !important;    
+}
+
+div.information {
+   border: 1px solid #EFE359;
+   padding      : 8px 12px 8px 12px;
+   padding-left : 36px;
+   background   : #F7F1BA url('/img/icones/16/aviso.png') no-repeat 10px 10px; 
+   margin       : 12px 0px;
+   font-family  : tahoma,verdana,sans-serif;
+   font-size    : 12px;
+}
+
+body
+{
+   font-family  : verdana,sans-serif;
+   font-size    : 12px;
+}

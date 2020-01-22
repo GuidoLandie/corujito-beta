@@ -1,0 +1,14 @@
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Apresentacao.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Apresentacao.pdb
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Entidade.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Negocio.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.Unity.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Entidade.pdb
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Negocio.pdb
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.dll
+C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.pdb
