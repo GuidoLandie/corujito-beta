@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Apresentacao", "Corujito.Apresentacao\Corujito.Apresentacao.csproj", "{FD8BCCB4-3A95-423F-83B4-D6C145C48249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Negocio", "Corujito.Negocio\Corujito.Negocio.csproj", "{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Entidade", "Corujito.Entidade\Corujito.Entidade.csproj", "{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8BCCB4-3A95-423F-83B4-D6C145C48249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8BCCB4-3A95-423F-83B4-D6C145C48249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8BCCB4-3A95-423F-83B4-D6C145C48249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8BCCB4-3A95-423F-83B4-D6C145C48249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

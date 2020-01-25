@@ -3,3 +3,8 @@ C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\bin\Debug\Co
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.dll
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\bin\Debug\Corujito.Entidade.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\bin\Debug\Corujito.Entidade.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.csprojAssemblyReference.cache
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Debug\Corujito.Entidade.pdb

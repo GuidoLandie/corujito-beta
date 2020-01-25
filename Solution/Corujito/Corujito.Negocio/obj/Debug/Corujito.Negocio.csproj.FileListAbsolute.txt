@@ -10,3 +10,16 @@ C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Negocio\bin\Debug\Cor
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Negocio\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.dll
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Corujito.Negocio.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Corujito.Negocio.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Corujito.Entidade.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Microsoft.Practices.Unity.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Corujito.Entidade.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.csprojAssemblyReference.cache
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.csproj.CopyComplete
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.pdb

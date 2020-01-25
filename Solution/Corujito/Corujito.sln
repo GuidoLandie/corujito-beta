@@ -1,11 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Apresentacao", "Corujito.Apresentacao\Corujito.Apresentacao.csproj", "{FD8BCCB4-3A95-423F-83B4-D6C145C48249}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Negocio", "Corujito.Negocio\Corujito.Negocio.csproj", "{65E3225B-DBF5-4D2A-9B2F-8A9A115EE470}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Entidade", "Corujito.Entidade\Corujito.Entidade.csproj", "{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corujito.Operation", "Corujito.Operation\Corujito.Operation.csproj", "{EFBB7EF4-5724-4757-A61C-F93B90C1E9C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,8 +29,15 @@ Global
 		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5535DA-50CE-4E8C-A54D-3DD6CFF2C498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBB7EF4-5724-4757-A61C-F93B90C1E9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBB7EF4-5724-4757-A61C-F93B90C1E9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBB7EF4-5724-4757-A61C-F93B90C1E9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBB7EF4-5724-4757-A61C-F93B90C1E9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B07A71B1-E844-431E-BDB0-C3C2B57BAE5A}
 	EndGlobalSection
 EndGlobal
