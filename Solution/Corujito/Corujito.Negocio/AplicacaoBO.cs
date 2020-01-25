@@ -7,6 +7,10 @@ using System.Data;
 using Microsoft.Practices.EnterpriseLibrary.Data;
 using System.Data.Common;
 
+
+
+
+
 namespace Corujito.Negocio
 {
     public class AplicacaoBO

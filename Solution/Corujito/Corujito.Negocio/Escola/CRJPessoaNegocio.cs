@@ -585,10 +585,17 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> objCRJPessoaColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa04"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "pIdPessoa", DbType.Int32, pIdPessoa);
+
+
+                db.AddInParameter(dbCommand, "pNome", DbType.Int32, pIdPessoa);
+                db.AddInParameter(dbCommand, "pEmail", DbType.String, DBNull.Value);
+                db.AddInParameter(dbCommand, "pCPF", DbType.String, DBNull.Value);
+                db.AddInParameter(dbCommand, "pTelefone", DbType.String, DBNull.Value);
+                
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {

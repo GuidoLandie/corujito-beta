@@ -45,7 +45,7 @@ namespace Corujito.Negocio
             {
                 if (dtUsuario.Rows[i]["Ativo"] != DBNull.Value)
                 {
-                    objUsuario.Ativo = Convert.ToBoolean(dtUsuario.Rows[i]["Ativo"].ToString());
+                    objUsuario.Ativo = Convert.ToBoolean(dtUsuario.Rows[i]["Ativo"]);
                 }
             }
 
@@ -208,7 +208,7 @@ namespace Corujito.Negocio
             List<Usuario> objUsuarioColecao = new List<Usuario>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios03"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "pUsuario", DbType.String, UserLogin);
