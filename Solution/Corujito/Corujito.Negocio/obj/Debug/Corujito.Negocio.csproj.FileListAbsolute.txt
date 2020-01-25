@@ -23,3 +23,8 @@ F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.csproj.CopyComplete
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\obj\Debug\Corujito.Negocio.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\Corujito.Negocio.dll.config
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\EntityFramework.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\EntityFramework.xml
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Negocio\bin\Debug\EntityFramework.SqlServer.xml

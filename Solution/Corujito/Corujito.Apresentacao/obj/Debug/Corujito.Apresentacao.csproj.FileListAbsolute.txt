@@ -28,3 +28,4 @@ F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Coru
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.csproj.CopyComplete
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Negocio.dll.config
