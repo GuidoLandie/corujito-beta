@@ -378,7 +378,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa1"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "IdStatus", DbType.Int32, pCRJPessoa.Status.IdStatus);
@@ -444,7 +444,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa2"))
             {
 
                 //Parâmetros da Stored Procedure.
@@ -504,7 +504,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdPessoa", DbType.Int32, pIdPessoa);
@@ -538,7 +538,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> objCRJPessoaColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa4"))
             {
                 if (!string.IsNullOrEmpty(pNome))
                     db.AddInParameter(dbCommand, "pNome", DbType.String, pNome);
@@ -590,8 +590,7 @@ namespace Corujito.Negocio.Escola
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "pIdPessoa", DbType.Int32, pIdPessoa);
 
-
-                db.AddInParameter(dbCommand, "pNome", DbType.Int32, pIdPessoa);
+                db.AddInParameter(dbCommand, "pNome", DbType.String, DBNull.Value);
                 db.AddInParameter(dbCommand, "pEmail", DbType.String, DBNull.Value);
                 db.AddInParameter(dbCommand, "pCPF", DbType.String, DBNull.Value);
                 db.AddInParameter(dbCommand, "pTelefone", DbType.String, DBNull.Value);
@@ -629,7 +628,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> TipoProfessorColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa4"))
             {
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
@@ -665,7 +664,7 @@ namespace Corujito.Negocio.Escola
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
             //Removoe todo mundo
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoaXTipo;02"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoaXTipo02"))
             {
 
                 //Parâmetros da Stored Procedure.
@@ -681,7 +680,7 @@ namespace Corujito.Negocio.Escola
                 foreach (CRJTipoPessoa item in listTipoPessoa)
                 {
                     //Insere todo mundo
-                    using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoaXTipo;01"))
+                    using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoaXTipo01"))
                     {
 
                         //Parâmetros da Stored Procedure.
@@ -713,7 +712,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;7"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa7"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, IdAluno);
@@ -743,7 +742,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;8"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa8"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdResponsavelAluno", DbType.Int32, IdResponsavelAluno);
@@ -769,7 +768,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> objCRJPessoaColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;5"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa5"))
             {
 
                 db.AddInParameter(dbCommand, "pIdAluno", DbType.String, IdDependente);
@@ -800,7 +799,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> objCRJPessoaColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa6"))
             {
 
                 db.AddInParameter(dbCommand, "pIdResponsavel", DbType.String, IdResponsavel);
@@ -831,7 +830,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> TipoProfessorColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;9"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa9"))
             {
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
@@ -859,7 +858,7 @@ namespace Corujito.Negocio.Escola
             List<CRJPessoa> TipoProfessorColecao = new List<CRJPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa;10"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJPessoa10"))
             {
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))

@@ -84,7 +84,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdEscola", DbType.Int32, pGrupoPermissao.IdEscola);
@@ -128,7 +128,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdGrupo", DbType.Int32, pGrupoPermissao.IdGrupo);
@@ -170,7 +170,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdGrupo", DbType.Int32, pIdGrupo);
@@ -204,7 +204,7 @@ namespace Corujito.Negocio
             List<GrupoPermissao> objGrupoPermissaoColecao = new List<GrupoPermissao>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao4"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "pIdEscola", DbType.Int32, pIdEscola);
@@ -260,7 +260,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;5"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao5"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdGrupo", DbType.Int32, IdGrupo);
@@ -299,7 +299,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJGrupoPermissao6"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdGrupo", DbType.Int32, IdGrupo);

@@ -111,7 +111,7 @@ namespace Corujito.Negocio
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAplicacoes;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAplicacoes2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pLogin", DbType.String, Login);
@@ -167,7 +167,7 @@ namespace Corujito.Negocio
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAplicacoes;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAplicacoes1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdAplicacao", DbType.Int32, IdAplicacao);

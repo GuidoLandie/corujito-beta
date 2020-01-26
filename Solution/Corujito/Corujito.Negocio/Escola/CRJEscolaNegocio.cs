@@ -178,7 +178,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "idEscola", DbType.Int32, 1);
@@ -230,7 +230,7 @@ namespace Corujito.Negocio.Escola
             List<CRJEscola> objCRJEscolaColecao = new List<CRJEscola>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "idEscola", DbType.Int32, pidEscola);

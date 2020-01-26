@@ -110,7 +110,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdTipoAtividade", DbType.Int32, pCRJAtividade.TipoAtividade.IdTipoAtividade);
@@ -162,7 +162,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdAtividade", DbType.Int32, pCRJAtividade.IdAtividade);
@@ -228,7 +228,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdAtividade", DbType.Int32, idAtividade);
@@ -270,7 +270,7 @@ namespace Corujito.Negocio.Escola
             List<CRJAtividade> objCRJAtividadeColecao = new List<CRJAtividade>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade;06"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade06"))
             {
                 db.AddInParameter(dbCommand, "@IdClasse", DbType.Int32, IdClasse);
 
@@ -299,7 +299,7 @@ namespace Corujito.Negocio.Escola
             List<CRJAtividade> objCRJAtividadeColecao = new List<CRJAtividade>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade;07"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAtividade07"))
             {
                 db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, IdAluno);
 

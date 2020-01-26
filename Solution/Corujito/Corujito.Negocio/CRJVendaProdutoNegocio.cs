@@ -83,7 +83,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido1"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "IdPessoa", DbType.String, pCRJVendaProduto.IdPessoa);
@@ -139,7 +139,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdVendaProduto", DbType.Int32, pCRJVendaProduto.IdVendaProduto);
@@ -180,7 +180,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdVendaProduto", DbType.Int32, pIdVendaProduto);
@@ -214,7 +214,7 @@ namespace Corujito.Negocio
             List<CRJVendaProduto> objCRJVendaProdutoColecao = new List<CRJVendaProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto4"))
             {
                 db.AddInParameter(dbCommand, "@Nome", DbType.String, Nome);
                 db.AddInParameter(dbCommand, "@IdTipoProduto", DbType.Int16, IdTipoProduto);
@@ -245,7 +245,7 @@ namespace Corujito.Negocio
             List<CRJVendaProduto> objCRJVendaProdutoColecao = new List<CRJVendaProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto;05"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJVendaProduto05"))
             {
                 db.AddInParameter(dbCommand, "@IdProduto", DbType.Int32, IdProduto);
 
@@ -286,7 +286,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido6"))
             {
                 //Parâmetros da Stored Procedure.
 
@@ -315,7 +315,7 @@ namespace Corujito.Negocio
         {
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido;7"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProdutoVendido7"))
             {
                 db.AddInParameter(dbCommand, "IdPessoa", DbType.Int16, IdPessoa);
              

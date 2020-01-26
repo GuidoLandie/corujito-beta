@@ -97,7 +97,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia01"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "IdProfMatClasse", DbType.Int32, IdProfMatClasse);
@@ -136,7 +136,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia;02"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia02"))
             {
 
                 //Parâmetros da Stored Procedure.
@@ -172,7 +172,7 @@ namespace Corujito.Negocio.Escola
             List<CRJFrequencia> objCRJFrequenciaColecao = new List<CRJFrequencia>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia;03"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia03"))
             {
 
                 db.AddInParameter(dbCommand, "IdProMatClasse", DbType.Int32, IdProfMatClasse);
@@ -208,7 +208,7 @@ namespace Corujito.Negocio.Escola
             List<CRJFrequencia> objCRJFrequenciaColecao = new List<CRJFrequencia>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia;05"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFrequencia05"))
             {
 
                 db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, IdAluno);

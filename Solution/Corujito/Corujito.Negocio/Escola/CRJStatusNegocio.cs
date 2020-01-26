@@ -110,7 +110,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "Descricao", DbType.String, pCRJStatus.Descricao);
@@ -160,7 +160,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus2"))
             {
                 //Parâmetros da Stored Procedure.
                 //db.AddInParameter(dbCommand,"IdStatus", DbType.Int32, pCRJStatus.IdStatus);
@@ -201,7 +201,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "", DbType.Int32, p);
@@ -235,7 +235,7 @@ namespace Corujito.Negocio.Escola
             List<CRJStatus> objCRJStatusColecao = new List<CRJStatus>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus1"))
             {
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {
@@ -268,7 +268,7 @@ namespace Corujito.Negocio.Escola
             List<CRJStatus> objCRJStatusColecao = new List<CRJStatus>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;02"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus02"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdStatus", DbType.Int32, p);
@@ -307,7 +307,7 @@ namespace Corujito.Negocio.Escola
             List<CRJStatus> objCRJStatusColecao = new List<CRJStatus>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus6"))
             {
                 //Parâmetros da Stored Procedure.
                 //TODO: Substitue o valor "<< INFORME O NOME DO PARAMETRO >>" pelo Nome do Parâmetro da Procedure.

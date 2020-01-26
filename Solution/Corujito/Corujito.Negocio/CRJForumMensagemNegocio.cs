@@ -95,7 +95,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem1"))
                 {
 
                     //Parâmetros da Stored Procedure.
@@ -138,7 +138,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;2"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem2"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdForumMensagem", DbType.Int32, pCRJForumMensagem.IdForumMensagem);
@@ -181,7 +181,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;3"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem3"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdForumMensagem", DbType.Int32, pIdForumMensagem);
@@ -214,7 +214,7 @@ namespace Corujito.Negocio
                 List<CRJForumMensagem> objCRJForumMensagemColecao = new List<CRJForumMensagem>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;4"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem4"))
                 {
                     using (DataSet ds = db.ExecuteDataSet(dbCommand))
                     {
@@ -247,7 +247,7 @@ namespace Corujito.Negocio
                 List<CRJForumMensagem> objCRJForumMensagemColecao = new List<CRJForumMensagem>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;5"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem5"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "IdForumMensagem", DbType.Int32, pIdForumMensagem);
@@ -282,7 +282,7 @@ namespace Corujito.Negocio
                 List<CRJForumMensagem> objCRJForumMensagemColecao = new List<CRJForumMensagem>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem;6"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJForumMensagem6"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "IdForumTopico", DbType.Int32, pIdForumTopico);

@@ -59,7 +59,7 @@ namespace Corujito.Negocio.Escola
             List<CRJTipoPessoa> objCRJTipoPessoaColecao = new List<CRJTipoPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa"))
             {
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {
@@ -92,7 +92,7 @@ namespace Corujito.Negocio.Escola
             List<CRJTipoPessoa> objCRJTipoPessoaColecao = new List<CRJTipoPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa;02"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa02"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdTipoPessoa", DbType.Int32, pId);
@@ -130,7 +130,7 @@ namespace Corujito.Negocio.Escola
             List<CRJTipoPessoa> objCRJTipoPessoaColecao = new List<CRJTipoPessoa>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa;03"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoPessoa03"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pIdPessoa", DbType.Int32, pIdPessoa);

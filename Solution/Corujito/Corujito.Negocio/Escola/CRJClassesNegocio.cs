@@ -156,7 +156,7 @@ namespace Corujito.Negocio.Escola
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses1"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"idSerieXTurma", DbType.Int32, pCRJClasses.Serie.idSerie);
@@ -207,7 +207,7 @@ namespace Corujito.Negocio.Escola
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses;2"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses2"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"idClasses", DbType.Int32, pCRJClasses.idClasses);
@@ -249,7 +249,7 @@ namespace Corujito.Negocio.Escola
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses;3"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses3"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"", DbType.Int32, p);
@@ -283,7 +283,7 @@ namespace Corujito.Negocio.Escola
                 //Instânciando a Lista Tipada.
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasse;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasse1"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "idClasse", DbType.Int32, pIdClasse);
@@ -319,7 +319,7 @@ namespace Corujito.Negocio.Escola
                 List<CRJClasses> objCRJClassesColecao = new List<CRJClasses>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJClasses1"))
                 {
                     using (DataSet ds = db.ExecuteDataSet(dbCommand))
                     {

@@ -94,7 +94,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pUsuario", DbType.String, pUsuario.UserLogin);
@@ -153,7 +153,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pUsuario", DbType.String, pUsuario.UserLogin);
@@ -244,7 +244,7 @@ namespace Corujito.Negocio
             List<Usuario> objUsuarioColecao = new List<Usuario>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJUsuarios4"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "pIdGrupo", DbType.Int32, Idgrupo);

@@ -128,7 +128,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdTipoProduto", DbType.Int32, pCRJProduto.Tipo.IdTipoProduto);
@@ -173,7 +173,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto2"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdProduto", DbType.Double, pCRJProduto.IdProduto);
@@ -219,7 +219,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdProduto", DbType.Int32, pIdProduto);
@@ -253,7 +253,7 @@ namespace Corujito.Negocio
             List<CRJProduto> objCRJProdutoColecao = new List<CRJProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto4"))
             {
                 db.AddInParameter(dbCommand, "@Nome", DbType.String, Nome);
                 db.AddInParameter(dbCommand, "@IdTipoProduto", DbType.Int16, IdTipoProduto);
@@ -284,7 +284,7 @@ namespace Corujito.Negocio
             List<CRJProduto> objCRJProdutoColecao = new List<CRJProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto;05"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProduto05"))
             {
                 db.AddInParameter(dbCommand, "@IdProduto", DbType.Int32, IdProduto);
           

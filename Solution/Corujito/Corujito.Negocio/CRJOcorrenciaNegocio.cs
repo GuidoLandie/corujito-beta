@@ -187,7 +187,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia1"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdLancador", DbType.Int32, pCRJOcorrencia.IdLancador);
@@ -241,7 +241,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;2"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia2"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdOcorrencia", DbType.Int32, pCRJOcorrencia.IdOcorrencia);
@@ -286,7 +286,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;3"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia3"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdOcorrencia", DbType.Int32, pIdOcorrencia);
@@ -320,7 +320,7 @@ namespace Corujito.Negocio
                 List<CRJOcorrencia> objCRJOcorrenciaColecao = new List<CRJOcorrencia>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;4"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia4"))
                 {
                     using (DataSet ds = db.ExecuteDataSet(dbCommand))
                     {
@@ -353,7 +353,7 @@ namespace Corujito.Negocio
                 List<CRJOcorrencia> objCRJOcorrenciaColecao = new List<CRJOcorrencia>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;5"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia5"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdOcorrencia", DbType.Int32, pIdOcorrencia);
@@ -389,7 +389,7 @@ namespace Corujito.Negocio
                 //List<CRJOcorrencia> objCRJOcorrenciaColecao = new List<CRJOcorrencia>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;7"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia7"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, pIdAluno);
@@ -416,7 +416,7 @@ namespace Corujito.Negocio
             {
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia;6"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJOcorrencia6"))
                 {
                     //Parâmetros da Stored Procedure.
 

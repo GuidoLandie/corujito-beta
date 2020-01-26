@@ -67,7 +67,7 @@ namespace Corujito.Negocio
             List<Cidade> objCidadeColecao = new List<Cidade>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCidade;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCidade01"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "idEstado", DbType.Int32, pIdEstado);

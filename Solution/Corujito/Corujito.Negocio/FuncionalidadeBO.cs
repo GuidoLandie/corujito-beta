@@ -22,7 +22,7 @@ namespace Corujito.Negocio
             List<Funcionalidade> objFuncionalidadeColecao = new List<Funcionalidade>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao1"))
             {
                 //Parâmetros da Stored Procedure.                         
                 db.AddInParameter(dbCommand, "IdGrupo", DbType.Int32, IdGrupo);
@@ -58,7 +58,7 @@ namespace Corujito.Negocio
             List<Funcionalidade> objFuncionalidadeColecao = new List<Funcionalidade>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao2"))
             {
                 //Parâmetros da Stored Procedure.                         
                 db.AddInParameter(dbCommand, "Usuario", DbType.String, Usuario);
@@ -186,7 +186,7 @@ namespace Corujito.Negocio
 
             foreach (Funcionalidade Item in objFUncionalidade)
             {
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;03"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao03"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "IdGrupo", DbType.Int32, IdGrupo);
@@ -228,7 +228,7 @@ namespace Corujito.Negocio
 
             foreach (Funcionalidade Item in objFUncionalidade)
             {
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;04"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao04"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "Usuario", DbType.String, User);
@@ -269,7 +269,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao6"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdGrupo", DbType.Int32, IdGrupo);
@@ -307,7 +307,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao;5"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJFuncionalidadeAplicacao5"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "Usuario", DbType.String, pUsuario);

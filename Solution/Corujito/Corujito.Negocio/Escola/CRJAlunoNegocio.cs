@@ -21,7 +21,7 @@ namespace Corujito.Negocio.Escola
             {
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAluno;6"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJAluno6"))
                 {
                     //Parâmetros da Stored Procedure.
                     if (!string.IsNullOrEmpty(pIdAluno))
@@ -65,7 +65,7 @@ namespace Corujito.Negocio.Escola
         {
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJResponsavel;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJResponsavel1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, pIdAluno);

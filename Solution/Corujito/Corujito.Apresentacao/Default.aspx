@@ -19,7 +19,7 @@
             <Items>
                 
                 <ext:TextField ID="txtUsername" runat="server" FieldLabel="E-mail" AllowBlank="false"                
-                    BlankText="O campo E-mail é obrigatório" AnchorHorizontal="100%" Text="guidolandie@yahoo.com.br" />
+                    BlankText="O campo E-mail é obrigatório" AnchorHorizontal="100%" Text="guidolandie" />
                 
                 <ext:TextField ID="txtPassword" runat="server" InputType="Password" FieldLabel="Senha"
                     AllowBlank="false" BlankText="O campo senha é obrigatório." AnchorHorizontal="100%" Text="senha" />

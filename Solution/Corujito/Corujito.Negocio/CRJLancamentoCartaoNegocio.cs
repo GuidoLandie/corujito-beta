@@ -164,7 +164,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;1"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao1"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdCartao", DbType.Int32, pCRJLancamentoCartao.IdCartao);
@@ -218,7 +218,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;2"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao2"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdLancamentoCartao", DbType.Int32, pCRJLancamentoCartao.IdLancamentoCartao);
@@ -261,7 +261,7 @@ namespace Corujito.Negocio
                 //Iniciando Persistência no Banco de Dados.
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
 
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;3"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao3"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdLancamentoCartao", DbType.Int32, pIdLancamentoCartao);
@@ -294,7 +294,7 @@ namespace Corujito.Negocio
                 List<CRJLancamentoCartao> objCRJLancamentoCartaoColecao = new List<CRJLancamentoCartao>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;4"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao4"))
                 {
                     using (DataSet ds = db.ExecuteDataSet(dbCommand))
                     {
@@ -327,7 +327,7 @@ namespace Corujito.Negocio
                 List<CRJLancamentoCartao> objCRJLancamentoCartaoColecao = new List<CRJLancamentoCartao>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;5"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao5"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand,"IdLancamentoCartao", DbType.Int32, pIdLancamentoCartao);
@@ -363,7 +363,7 @@ namespace Corujito.Negocio
                 List<CRJLancamentoCartao> objCRJLancamentoCartaoColecao = new List<CRJLancamentoCartao>();
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase( "BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;6"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao6"))
                 {
                     //Parâmetros da Stored Procedure.
                     //TODO: Substitue o valor "<< INFORME O NOME DO PARAMETRO >>" pelo Nome do Parâmetro da Procedure.
@@ -397,7 +397,7 @@ namespace Corujito.Negocio
             {
 
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;6"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao6"))
                 {
                     //Parâmetros da Stored Procedure.
 
@@ -438,7 +438,7 @@ namespace Corujito.Negocio
             public DataTable ObterCRJLancamentoCartao2(int idCartao)
             {
                 Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao;7"))
+                using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJLancamentoCartao7"))
                 {
                     //Parâmetros da Stored Procedure.
                     db.AddInParameter(dbCommand, "IdCartao", DbType.Int32, idCartao);

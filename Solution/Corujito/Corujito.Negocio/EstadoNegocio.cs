@@ -74,7 +74,7 @@ namespace Corujito.Negocio
             List<Estado> objEstadoColecao = new List<Estado>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPEstado;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPEstado"))
             {
 
                 db.AddInParameter(dbCommand, "idPais", DbType.Int32, IdPais);

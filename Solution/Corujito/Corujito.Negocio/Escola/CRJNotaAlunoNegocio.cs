@@ -106,7 +106,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno01"))
             {
                 //Parâmetros da Stored Procedure.                
                 db.AddInParameter(dbCommand, "IdProfMatClasse", DbType.Int32, IdProfMatClasse);
@@ -144,7 +144,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno;02"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno02"))
             {
 
                 //Parâmetros da Stored Procedure.
@@ -177,7 +177,7 @@ namespace Corujito.Negocio.Escola
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno;5"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno5"))
             {
 
                 //Parâmetros da Stored Procedure.
@@ -212,7 +212,7 @@ namespace Corujito.Negocio.Escola
             List<CRJNotaAluno> objCRJNotaAlunoColecao = new List<CRJNotaAluno>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno;03"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno03"))
             {
 
                 db.AddInParameter(dbCommand, "IdProMatClasse", DbType.Int32, IdProfMatClasse);
@@ -248,7 +248,7 @@ namespace Corujito.Negocio.Escola
             List<CRJNotaAluno> objCRJNotaAlunoColecao = new List<CRJNotaAluno>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno;04"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJNotaAluno04"))
             {
 
                 db.AddInParameter(dbCommand, "IdAluno", DbType.Int32, IdAluno);

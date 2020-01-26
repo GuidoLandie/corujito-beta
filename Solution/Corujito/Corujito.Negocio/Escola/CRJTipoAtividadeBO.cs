@@ -56,7 +56,7 @@ namespace Corujito.Negocio.Escola
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade1"))
             {
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
@@ -90,7 +90,7 @@ namespace Corujito.Negocio.Escola
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade3"))
             {
                 db.AddInParameter(dbCommand, "Descricao", DbType.String, p_Tipodesc);
                 db.AddInParameter(dbCommand, "IdTipoAtividade", DbType.Int32, IdTipoAtividade);
@@ -136,7 +136,7 @@ namespace Corujito.Negocio.Escola
         //    List<CRJTipoAtividade> objCRJTipoAtividadeColecao = new List<CRJTipoAtividade>();
 
         //    Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-        //    using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade;2"))
+        //    using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoAtividade2"))
         //    {
 
         //        db.AddInParameter(dbCommand, "@IdTipoAtividade", DbType.Int32, IdTipo);

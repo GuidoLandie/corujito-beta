@@ -82,7 +82,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse1"))
             {
                 //Parâmetros da Stored Procedure.
                 //db.AddInParameter(dbCommand, "IdTipoProduto", DbType.Int32, pCRJProfXMateriaXClasse.Tipo.IdTipoProduto);
@@ -127,7 +127,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse;2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse2"))
             {
                 //Parâmetros da Stored Procedure.
                 //db.AddInParameter(dbCommand, "IdProduto", DbType.Double, pCRJProfXMateriaXClasse.IdProduto);
@@ -173,7 +173,7 @@ namespace Corujito.Negocio
             //Iniciando Persistência no Banco de Dados.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse;3"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse3"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "IdProduto", DbType.Int32, pIdProduto);
@@ -207,7 +207,7 @@ namespace Corujito.Negocio
             List<CRJProfXMateriaXClasse> objCRJProfXMateriaXClasseColecao = new List<CRJProfXMateriaXClasse>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse4"))
             {
                 db.AddInParameter(dbCommand, "@Nome", DbType.String, Nome);
                 db.AddInParameter(dbCommand, "@IdTipoProduto", DbType.Int16, IdTipoProduto);
@@ -244,7 +244,7 @@ namespace Corujito.Negocio
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
 
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfxMatXClasse;4"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfxMatXClasse4"))
             {
                 db.AddInParameter(dbCommand, "IdProfessor", DbType.Int16, IdProfessor);
 
@@ -273,7 +273,7 @@ namespace Corujito.Negocio
             List<CRJProfXMateriaXClasse> objCRJProfXMateriaXClasseColecao = new List<CRJProfXMateriaXClasse>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse;05"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJProfXMateriaXClasse05"))
             {
                 db.AddInParameter(dbCommand, "@IdProduto", DbType.Int32, idProfXMateriaXClasse);
 

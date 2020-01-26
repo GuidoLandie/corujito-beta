@@ -125,7 +125,7 @@ namespace Corujito.Negocio.Escola
             List<CRJEnsino> objCRJEnsinoColecao = new List<CRJEnsino>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino01"))
             {
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {
@@ -152,7 +152,7 @@ namespace Corujito.Negocio.Escola
             List<CRJEnsino> objCRJEnsinoColecao = new List<CRJEnsino>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino;01"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino01"))
             {
                 //db.AddInParameter(dbCommand, "@Idprofessor", DbType.Int32, pIdProfessor);
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
@@ -184,7 +184,7 @@ namespace Corujito.Negocio.Escola
         {
             //Instânciando a Lista Tipada.
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino;1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino1"))
             {
                 //Parâmetros da Stored Procedure.
                 db.AddInParameter(dbCommand, "pidEnsino", DbType.Int32, pIdEnsino);
@@ -219,7 +219,7 @@ namespace Corujito.Negocio.Escola
             List<CRJEnsino> objCRJEnsinoColecao = new List<CRJEnsino>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino;6"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEnsino6"))
             {
                 //Parâmetros da Stored Procedure.
                 //TODO: Substitue o valor "<< INFORME O NOME DO PARAMETRO >>" pelo Nome do Parâmetro da Procedure.
