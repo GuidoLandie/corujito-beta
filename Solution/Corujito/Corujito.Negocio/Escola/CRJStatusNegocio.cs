@@ -235,7 +235,7 @@ namespace Corujito.Negocio.Escola
             List<CRJStatus> objCRJStatusColecao = new List<CRJStatus>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus"))
             {
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {
@@ -271,7 +271,7 @@ namespace Corujito.Negocio.Escola
             using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJStatus02"))
             {
                 //Parâmetros da Stored Procedure.
-                db.AddInParameter(dbCommand, "IdStatus", DbType.Int32, p);
+                db.AddInParameter(dbCommand, "p_IdStatus", DbType.Int32, p);
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {

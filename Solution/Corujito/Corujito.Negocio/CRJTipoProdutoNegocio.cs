@@ -55,7 +55,7 @@ namespace Corujito.Negocio
             List<CRJTipoProduto> objCRJTipoProdutoColecao = new List<CRJTipoProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoProduto1"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoProduto01"))
             {
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
@@ -88,10 +88,10 @@ namespace Corujito.Negocio
             List<CRJTipoProduto> objCRJTipoProdutoColecao = new List<CRJTipoProduto>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoProduto2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJTipoProduto02"))
             {
 
-                db.AddInParameter(dbCommand, "@IdTipoProduto", DbType.Int32, IdTipo);
+                db.AddInParameter(dbCommand, "p_IdTipoProduto", DbType.Int32, IdTipo);
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {

@@ -230,10 +230,10 @@ namespace Corujito.Negocio.Escola
             List<CRJEscola> objCRJEscolaColecao = new List<CRJEscola>();
 
             Database db = Microsoft.Practices.EnterpriseLibrary.Data.DatabaseFactory.CreateDatabase("BancoSistema");
-            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola2"))
+            using (DbCommand dbCommand = db.GetStoredProcCommand("STPCRJEscola02"))
             {
                 //Parâmetros da Stored Procedure.
-                db.AddInParameter(dbCommand, "idEscola", DbType.Int32, pidEscola);
+                db.AddInParameter(dbCommand, "p_idEscola", DbType.Int32, pidEscola);
 
                 using (DataSet ds = db.ExecuteDataSet(dbCommand))
                 {
