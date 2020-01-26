@@ -12,6 +12,8 @@ C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Coru
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Negocio.pdb
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.dll
 C:\Users\Guido\Desktop\Corujito\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.pdb
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Apresentacao.dll.config
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Apresentacao.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Apresentacao.pdb
@@ -19,7 +21,6 @@ F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.E
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.Negocio.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\MySql.Data.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
-F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.ServiceLocation.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.Unity.dll
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Microsoft.Practices.Unity.Interception.dll
@@ -29,4 +30,3 @@ F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\bin\Corujito.N
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.csprojAssemblyReference.cache
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.csproj.CopyComplete
 F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.dll
-F:\projetos\corujito-beta\Solution\Corujito\Corujito.Apresentacao\obj\Debug\Corujito.Apresentacao.pdb
