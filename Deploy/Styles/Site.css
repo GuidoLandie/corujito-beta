@@ -1,0 +1,447 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background-color:#FFF;    
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    background-image:url('/Imagens/bg-topo.png');
+    background-repeat:repeat-x;
+
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+.logo
+{
+    float:left;
+    margin:35px 0 0 0;
+}
+
+.page
+{           
+    width: 800px;    
+    margin: 0px auto 0px auto;
+    border: 0px solid #496077;
+    background-color:transparent;  
+}
+
+.header
+{       
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    height:127px;
+    position: relative;
+    border:0px solid red;
+}
+
+.HeaderLogo
+{
+   background-image:url('/Imagens/LogoCorujito2.png');
+   background-repeat:no-repeat;      
+   width:290px;
+   height:140px;
+   float:left;
+}
+
+.dadosUsuario
+{
+   height:auto;
+   width:auto;
+   border:0px solid;   
+   float:right;
+  
+}
+
+
+.main
+{
+    padding: 12px 0px;
+    margin: 0px 0px 0px 0px;
+    min-height: 420px;
+    width:800px;
+    height:auto;
+    background-color:transparent;
+    
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    height:40px;
+    
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+
+.DivHome
+{
+    float:left;
+    width:70px; 
+    height:40px; 
+    position:relative; 
+    z-index:100;    
+    font-family:arial, sans-serif;
+    /*border:1px solid;*/
+    
+    /*background-image:url('/Imagens/bg_menu.png');
+    background-repeat:repeat-x;*/
+}
+.DivHome img
+{
+    padding:5px 0px 0px 15px;
+    border:0px;
+}
+
+
+
+/* configurações do Menu */
+.menu 
+{
+    float:right;
+    width:730px; 
+    height:40px; 
+    position:relative; 
+    z-index:100;    
+    font-family:arial, sans-serif;
+    border:0px solid;
+    
+    /*background-image:url('/Imagens/bg_menu.png');
+    background-repeat:repeat-x;*/
+           
+}
+
+/* Responsável por remover as margens, padding e bullets de todas as listas */
+.menu ul 
+{
+    padding:0; 
+    margin:0; 
+    list-style-type:none;          
+}
+
+.menu ul ul 
+{
+     width:120px;
+     
+     /*background-image:url('/Imagens/bg_menu_Hover.png'); 
+     background-repeat:repeat;*/
+}
+
+/* Float para tornar a lista horizontal e positipn relative para controlar as posições dos submenus */
+.menu li 
+{
+    float:left; 
+    width:120px; 
+    height:32px;
+    position:relative;
+    /*border:1px solid red;*/
+    padding:9px 0px 0px 5px;
+    border-bottom:1px solid #FFF;
+    
+         
+}
+
+
+/* Estilos aplicados aos links de primeiro nível */
+.menu a, .menu a:visited 
+{
+    display:block;         
+    text-decoration:none;
+    font-family:Tahoma;
+    font-size:13px;        
+    color:#FFF;         
+    /*height:40px;     
+    width:120px;  */   
+                     
+}
+
+
+/* Background aplicado aos links de segundo nível */
+.menu ul ul a.drop, .menu ul ul a.drop:visited 
+{
+    /*background-image:url('/Imagens/ArrowRight.png'); 
+    background-repeat:no-repeat;
+    background-position:165px 0px;*/
+    
+}
+
+
+
+/* Estilos para o hover do segudo nível */
+.menu ul ul a.drop:hover
+{    
+   /* background-image:url('/Imagens/ArrowRight.png'); 
+    background-repeat:no-repeat;
+    background-position:165px 0px;*/
+    
+}
+
+.menu ul ul :hover > a.drop 
+{
+    
+    /*background-image:url('/Imagens/ArrowRight.png'); 
+    background-repeat:no-repeat;*/
+    
+    /*background-image:url('/Imagens/bg_menu_Hover.png');
+    background-repeat:repeat-x;*/
+    /*width:120px;     
+    height:40px; */
+    
+}
+
+/* Estilos aplicados aos links de terceiro nível */
+.menu ul ul ul a, .menu ul ul ul a:visited 
+{
+    /*background-color:#00FFFF;*/
+}
+
+/* Estilo aplicado ao hover dos links de terceiro nível */
+.menu ul ul ul a:hover 
+{
+    /*background-color:#00FFFF;*/
+    
+}
+
+/* Esconder os sub níveis e dar-lhes uma posição absoluta para que eles ocupem nenhum espaço */
+.menu ul ul 
+{
+    visibility:hidden; 
+    position:absolute; 
+    height:auto;
+    top:40px; 
+    left:0px; 
+    width:120px; 
+
+    /*background-color:#00FFFF;*/                      
+}
+
+.menu ul ul li
+{
+    background-color:#3B9DBD;
+    border-left:1px solid #FFF;
+                     
+}
+
+.menu ul ul li:hover
+{
+    background-color:#005975;
+    border-left:1px solid #FFF;
+                     
+}
+
+/* Posição do menu de treceiro nível */
+.menu ul ul ul
+{
+    left:125px;
+    top:0px; 
+    width:120px;
+    /*background-color:#00FFFF;*/                   
+}
+
+/* Posição do menu flutuante de terceiro nível */
+.menu ul ul ul.left 
+{
+    left:-120px;
+}
+
+/* Estilo para a tabela, necessário para que funcione no Internet Explorer */
+.menu table 
+{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    border-collapse:collapse;
+}
+
+/* Estilo para o segundo nível de links */
+.menu ul ul a, .menu ul ul a:visited 
+{
+    margin-left:0px;
+    width:120px; 
+    height:40px;         
+    padding:0px 0px;     
+    border:0px solid;    
+}
+
+/* Estilo para o hover dos links */
+.menu a:hover, .menu ul ul a:hover
+{
+    /*background-image:url('/Imagens/bg_menu_Hover.png');
+    background-repeat:repeat-x;*/
+    width:120px;     
+    height:40px; 
+}
+
+.menu :hover > a, .menu ul ul :hover > a 
+{
+    /*background-image:url('/Imagens/bg_menu_Hover.png');
+    background-repeat:repeat-x;*/
+    width:120px; 
+    height:40px; 
+}
+
+
+/* Torna o segundo nível do menu visível quando passar o mouse sob o primeiro nível do menu ou link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{visibility:visible; }
+
+/* Mantém o terceiro nível oculto quando você passar o mouse sob o primeiro nível do menu ou link */
+.menu ul :hover ul ul{visibility:hidden;}
+
+/* Tornar o terceiro nível visível quando você coloca o mouse sob o segundo nível do menu ou link */
+.menu ul :hover ul :hover ul{ visibility:visible;}
+

@@ -1,0 +1,5 @@
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\bin\Release\Corujito.Entidade.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\bin\Release\Corujito.Entidade.pdb
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Release\Corujito.Entidade.csprojAssemblyReference.cache
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Release\Corujito.Entidade.dll
+F:\projetos\corujito-beta\Solution\Corujito\Corujito.Entidade\obj\Release\Corujito.Entidade.pdb

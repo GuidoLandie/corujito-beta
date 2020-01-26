@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://sistema.escolainfantilluzdosaber.com.br/sistema.escolainfantilluzdosaber.com.br</_PublishTargetUrl>
+    <EncryptedPassword />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="bin/Corujito.Apresentacao.dll">
+      <publishTime>01/26/2020 12:05:38</publishTime>
+    </File>
+    <File Include="bin/Corujito.Apresentacao.pdb">
+      <publishTime>01/26/2020 12:05:38</publishTime>
+    </File>
+    <File Include="bin/Corujito.Entidade.dll">
+      <publishTime>01/26/2020 11:53:59</publishTime>
+    </File>
+    <File Include="bin/Corujito.Entidade.pdb">
+      <publishTime>01/26/2020 11:53:59</publishTime>
+    </File>
+    <File Include="bin/Corujito.Negocio.dll">
+      <publishTime>01/26/2020 11:54:00</publishTime>
+    </File>
+    <File Include="bin/Corujito.Negocio.dll.config">
+      <publishTime>01/24/2020 06:28:36</publishTime>
+    </File>
+    <File Include="bin/Corujito.Negocio.pdb">
+      <publishTime>01/26/2020 11:54:00</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.dll">
+      <publishTime>09/22/2011 13:44:18</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.Utilities.dll">
+      <publishTime>09/22/2011 13:44:18</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.UX.dll">
+      <publishTime>01/31/2012 13:45:16</publishTime>
+    </File>
+    <File Include="bin/Global.dll">
+      <publishTime>01/25/2012 11:25:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>02/16/2012 14:44:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>02/16/2012 14:44:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>02/16/2012 14:44:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>02/16/2012 14:44:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>02/16/2012 14:44:10</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>10/02/2015 17:37:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/22/2011 13:44:18</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/26/2020 10:24:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Imagens/ArrowDown.png">
+      <publishTime>05/23/2012 22:56:22</publishTime>
+    </File>
+    <File Include="Imagens/ArrowRight.png">
+      <publishTime>05/27/2012 20:54:06</publishTime>
+    </File>
+    <File Include="Imagens/bg-topo.png">
+      <publishTime>06/17/2012 15:16:32</publishTime>
+    </File>
+    <File Include="Imagens/bg_menu.png">
+      <publishTime>05/23/2012 00:47:38</publishTime>
+    </File>
+    <File Include="Imagens/bg_menu_down.png">
+      <publishTime>05/23/2012 23:58:52</publishTime>
+    </File>
+    <File Include="Imagens/bg_menu_Hover.png">
+      <publishTime>05/23/2012 21:52:36</publishTime>
+    </File>
+    <File Include="Imagens/config32.png">
+      <publishTime>05/23/2012 22:35:22</publishTime>
+    </File>
+    <File Include="Imagens/configure32.png">
+      <publishTime>05/23/2012 22:36:16</publishTime>
+    </File>
+    <File Include="Imagens/Consultas32.png">
+      <publishTime>05/23/2012 22:36:20</publishTime>
+    </File>
+    <File Include="Imagens/favicon.ico">
+      <publishTime>09/24/2012 23:15:20</publishTime>
+    </File>
+    <File Include="Imagens/Home32.png">
+      <publishTime>05/23/2012 22:11:42</publishTime>
+    </File>
+    <File Include="Imagens/logo.png">
+      <publishTime>10/03/2012 22:51:38</publishTime>
+    </File>
+    <File Include="Imagens/LogoCorujito2.png">
+      <publishTime>06/09/2012 16:57:00</publishTime>
+    </File>
+    <File Include="Imagens/MinhaArea32.png">
+      <publishTime>05/23/2012 22:36:26</publishTime>
+    </File>
+    <File Include="Modal.Master">
+      <publishTime>09/24/2012 20:47:22</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/AcaoProfessor.aspx">
+      <publishTime>12/06/2012 23:18:50</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/AlunosPesquisa.aspx">
+      <publishTime>10/29/2012 23:29:22</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroAtividade.aspx">
+      <publishTime>12/03/2012 22:23:40</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroCargo.aspx">
+      <publishTime>10/22/2012 23:03:00</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroCargoPesquisa.aspx">
+      <publishTime>10/22/2012 23:03:00</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroCartao.aspx">
+      <publishTime>12/09/2012 23:45:18</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroCartaoPesquisa.aspx">
+      <publishTime>10/22/2012 23:03:02</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroEscola.aspx">
+      <publishTime>12/02/2012 20:26:44</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroEscolaPesquisa.aspx">
+      <publishTime>05/31/2012 20:38:10</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroFrequencia.aspx">
+      <publishTime>11/27/2012 21:40:52</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroGrupo.aspx">
+      <publishTime>10/27/2012 15:38:46</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroGrupoPermissoes.aspx">
+      <publishTime>06/13/2012 21:17:34</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroGrupoPesquisa.aspx">
+      <publishTime>10/30/2012 22:04:24</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroGrupoUsuarios.aspx">
+      <publishTime>06/18/2012 06:41:18</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroLancamentoCartao.aspx">
+      <publishTime>10/22/2012 23:03:02</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroMensagem.aspx">
+      <publishTime>12/10/2012 04:13:42</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroMensagemPesquisa.aspx">
+      <publishTime>10/02/2012 20:37:42</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroNota.aspx">
+      <publishTime>11/27/2012 00:12:44</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroOcorrencia.aspx">
+      <publishTime>12/09/2012 01:29:10</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroOcorrenciaAluno.aspx">
+      <publishTime>12/10/2012 04:18:44</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroOcorrenciaPesquisa.aspx">
+      <publishTime>12/09/2012 01:29:08</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroPermissaoUsuario.aspx">
+      <publishTime>06/18/2012 15:40:04</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroPermissaoUsuarioPesquisa.aspx">
+      <publishTime>12/10/2012 04:59:50</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroPessoa.aspx">
+      <publishTime>12/10/2012 03:49:44</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroPessoaPesquisa.aspx">
+      <publishTime>12/10/2012 01:15:28</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroProduto.aspx">
+      <publishTime>12/07/2012 00:13:02</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CadastroProdutoPesquisa.aspx">
+      <publishTime>12/07/2012 00:08:52</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarAlimentacao.aspx">
+      <publishTime>12/10/2012 06:12:40</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarAtividades.aspx">
+      <publishTime>12/10/2012 05:54:28</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarCartao.aspx">
+      <publishTime>12/10/2012 03:58:56</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarFrequencia.aspx">
+      <publishTime>12/10/2012 05:02:38</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarNotas.aspx">
+      <publishTime>12/10/2012 04:27:36</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ConsultarOcorrencia.aspx">
+      <publishTime>12/10/2012 04:32:14</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/CRJEscolaCadastro.aspx">
+      <publishTime>05/19/2012 20:47:52</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ForumMensagem.aspx">
+      <publishTime>12/09/2012 01:29:10</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/ForumTopico.aspx">
+      <publishTime>12/09/2012 01:29:08</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/LancamentoCartao.aspx">
+      <publishTime>12/10/2012 00:41:26</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/LancamentoFrequencia.aspx">
+      <publishTime>12/09/2012 14:45:54</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/LancamentoNota.aspx">
+      <publishTime>12/06/2012 22:58:34</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/PesquisaAtividade.aspx">
+      <publishTime>12/05/2012 03:30:38</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/SituacaoAcademica.aspx">
+      <publishTime>12/10/2012 04:49:54</publishTime>
+    </File>
+    <File Include="Paginas/Administracao/VenderProdutoPesquisa.aspx">
+      <publishTime>12/10/2012 05:36:46</publishTime>
+    </File>
+    <File Include="Paginas/Home.aspx">
+      <publishTime>06/18/2012 06:35:54</publishTime>
+    </File>
+    <File Include="Paginas/TesteExt.aspx">
+      <publishTime>05/17/2012 00:53:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>04/21/2012 17:48:34</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>11/30/2012 01:54:46</publishTime>
+    </File>
+    <File Include="Styles/ExtCustomizado.css">
+      <publishTime>06/02/2012 17:29:26</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>11/30/2012 01:54:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/26/2020 11:54:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

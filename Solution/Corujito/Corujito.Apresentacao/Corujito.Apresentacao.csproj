@@ -560,6 +560,7 @@
     <None Include="packages.config" />
     <None Include="Paginas\Administracao\Consultas\.svn\all-wcprops" />
     <None Include="Paginas\Administracao\Consultas\.svn\entries" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
